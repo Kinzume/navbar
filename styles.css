@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+}
+.site-logo {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 0 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-inline: 8px;
+  border-radius: 10px;
+  transition: background-color 0.25s ease-out;
+}
+nav {
+  width: 100vw;
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 35px;
+  user-select: none;
+}
+
+ul {
+  display: flex;
+  gap: 0 35px;
+  justify-content: center;
+}
+li {
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-inline: 15px;
+  transition: background-color 0.25s ease-out;
+  border-radius: 10px;
+}
+.with-svg {
+  display: flex;
+  gap: 0 2px;
+  align-items: center;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.primarynav-button {
+  border: none;
+  padding: 0;
+  background: linear-gradient(45deg, #e66465, #9198e5);
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-inline: 15px;
+  border-radius: 10px;
+  transition: box-shadow 0.25s ease-out;
+}
+.site-logo:hover,
+.primarynav > li:hover {
+  background-color: #ffffff38;
+}
+.primarynav-button:hover {
+  box-shadow: 0px 0px 0px 5px #ca93ea3b;
+}
+/*
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+} */
